@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>CANDIDATE LOGIN FORM</title>
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<style>
+body { padding-top:30px; }
+.form-control { margin-bottom: 10px; }
+.container {margin-left: 475px;}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+	<div class='firstimage'><img src="eVoteLogoMain.png"/></div>
+        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+            <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-user"></i></a> Login with the correct credentials</legend>
+            <form action="clogin.php" method="post" class="form" role="form">
+	    <input class="form-control" placeholder="Your Candidate Id" name="id" type="text" />
+
+            <input class="form-control" name="password" placeholder="Password" type="password" />
+	    <br />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" onclick="location.href = 'clogin.php';">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</head>
+</html>

@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>VOTER REGISTRATION FORM</title>
+<link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<style>
+body { padding-top:30px; }
+.form-control { margin-bottom: 10px; }
+.container {margin-left: 475px;}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+	<div class='firstimage'><img src="eVoteLogoMain.png"/></div>
+        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
+            <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Sign up as a Voter!</legend>
+            <form action="register.php" method="post" class="form" role="form">
+            
+                
+                    <input class="form-control" placeholder="Your Name" name="Name" type="text" />
+                 <input class="form-control" placeholder="Your Voter Id" name="Id" type="text" />
+                 <input class="form-control" placeholder="Your Region" name="Region" type="text" />
+            
+            <input class="form-control" name="email" placeholder="Your Email" type="email" />
+            
+            <input class="form-control" name="password" placeholder="Password" type="password" />
+	    <input class="form-control" name="repassword" placeholder="Re-enter Password" type="password" />
+            <br />
+            <br />
+            <button class="btn btn-lg btn-primary btn-block" onclick="location.href = 'register.php';">Sign up</button>
+            </form>
+        </div>
+    </div>
+</div>
+    
+ 
+    
+</body>
+</head>
+</html>
